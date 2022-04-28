@@ -1,0 +1,46 @@
+{
+  "name": "mztab-converter",
+  "version": "0.0.0",
+  "description": "Convewrt mztab data",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "eslint": "eslint src",
+    "eslint-fix": "npm run eslint -- --fix",
+    "prepack": "rollup -c",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
+    "test": "npm run test-only && npm run eslint && npm run prettier",
+    "test-only": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cheminfo/mztab-converter.git"
+  },
+  "keywords": [],
+  "author": "Luc Patiny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cheminfo/mztab-converter/issues"
+  },
+  "homepage": "https://github.com/cheminfo/mztab-converter#readme",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.14.0",
+    "eslint-config-cheminfo": "^7.3.0",
+    "jest": "^28.0.2",
+    "prettier": "^2.6.2",
+    "rollup": "^2.70.2"
+  },
+  "dependencies": {
+    "ensure-string": "^1.2.0"
+  }
+}
