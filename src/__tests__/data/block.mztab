@@ -1,3 +1,4 @@
+
 PRH	accession	description	taxid	species	database	database_version	search_engine	best_search_engine_score[1]	ambiguity_members	modifications	protein_abundance_study_variable[1]	protein_abundance_stdev_study_variable[1]	protein_abundance_std_error_study_variable[1]	protein_abundance_study_variable[2]	protein_abundance_stdev_study_variable[2]	protein_abundance_std_error_study_variable[2]
 COM	Accession	Description	Taxonomie ID	Species	Database	Version	Search Engine	best Mascot score	Ambiguity Members	Modifications	Abundance (HSPControl)	Standard Deviation (HSPControl)	Standard Error (HSPControl)	Abundance (HSPTreatment)	Standard Deviation (HSPTreatment)	Standard Error (HSPTreatment)
 PRT	P63017	Heat shock cognate 71 kDa protein	10090	Mus musculus	UniProtKB	2013_08	[MS,MS:1001207,Mascot,]	46	null	0	40.63833264	5.655317647	3.265099166	274.6104756	35.15499814	20.29674764
